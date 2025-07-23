@@ -1,0 +1,101 @@
+/* font styles  */
+
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* shared st}yles  */
+.cmn-margin{
+    max-width: 1140px;
+    margin: 120px auto ;
+}
+.cmn-title{
+    font-weight: bold;
+    font-size: 3.125rem;
+    font-family: "Noto Serif", serif;
+    color: #000000;
+    margin: 0;
+}
+.cmn-description{
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 1.375rem;
+}
+.cmn-btn{
+    background-color: #E95A08;
+    font-weight: 600;
+    color: white;
+    padding: 19px 80px;
+}
+.cmn-fancy-heading{
+    color:#E95A08 ;
+}
+.cmn-color-nav{
+    color: #8987A1;
+}
+/* header styles */
+
+/* navbar styles */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar img{
+    width: 10%;
+}
+.navbar ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+    
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+}
+.home{
+    font-weight: bold;
+    color: #252432;
+}
+.cart{
+    color: #000000;
+}
+
+/* smaller device navbar  */
+@media screen and (max-width: 576px){
+    .home,.cmn-color-nav {
+        display: none;
+    }
+    .navbar img{
+        width: 15%;
+    }
+    .navbar ul{
+        grid-template-columns: repeat(1,1fr);
+        gap: 0px;
+    }
+}
+
+/* banner styles  */
+.banner-content-title{
+    font-size:4.0625;
+}
+.banner{
+    display: flex;
+}
+
+/* smaller device banner  */
+@media screen and (max-width: 576px){
+    .banner{
+   flex-direction: column-reverse;
+}
+}
