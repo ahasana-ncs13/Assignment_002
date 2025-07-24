@@ -170,10 +170,97 @@
     }
 }
 
+/* Latest-Deal styles  */
+.Latest-Deal-content{
+    text-align: center;
+    max-width: 850px;
+    margin: 50px auto;
+}
+.discounts{
+    display: grid;
+    gap: 25px;
+    grid-template-areas:
+     "bloom-plant   Zabo-Plant"
+     "Ana-Plant     Zabo-Plant";
+}
+.bloom-plant{
+    grid-area: bloom-plant;
+}
+.Ana-Plant{
+    grid-area: Ana-Plant;
+}
+.Zabo-Plant{
+    grid-area: Zabo-Plant;
+}
+
+.bloom-plant{
+    background-image: url("../assets/deal-bloom.png");
+    background-size: cover;
+    border-radius: 14px;
+    text-align: center;
+    padding: 65px 50px;
+    
+}
+.Ana-Plant{
+    background-image: url("../assets/deal-ana.png");
+    background-size: cover;
+    border-radius: 14px;
+    text-align: center;
+    padding: 65px 50px;
+}
+.Zabo-Plant{
+    background-image: url("../assets/deal-zabo.png");
+    background-size: cover;
+    border-radius: 22px;
+    text-align: center;
+    padding: 130px 150px;
+}
+.plant-title{
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: white;
+    margin: 0;
+}
+.Plant-subtitle{
+    font-weight: 600;
+    color: white;
+    text-decoration: underline;
+}
+.Zabo-Plant-title{
+    font-size: 2.5rem;  
+}
+.Zabo-Plant-subtitle{
+    font-size: 1.75rem;
+    margin: 0;
+}
+
+/* smaller device Latest-Deal section  */
+@media screen and (max-width: 576px){
+    .discounts{
+    grid-template-areas:
+     "bloom-plant "
+     "Ana-Plant"
+     "Zabo-Plant";
+}
+.Zabo-Plant{
+    padding: 65px 50px;
+    border-radius: 14px;
+}
+    .Zabo-Plant-title{
+    font-size: 1.25rem;
+    margin: 15px;  
+}
+    .Zabo-Plant-subtitle{
+    font-size: 1rem;
+}
+}
+
+
 
 /* join styles  */
 .join{
-    background-image: url(../assets/news-letter-bg.png);
+    background-image: url("../assets/news-letter-bg.png");
     background-size: cover;
     padding:190px 0;
 }
