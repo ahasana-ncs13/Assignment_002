@@ -129,6 +129,41 @@
 /* smaller device plants section  */
 @media screen and (max-width: 576px){
     .plants-card-container{
-    grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);
+    }
+    .plants-card img{
+        width: 95%;
+    }
+    .cmn-btn{
+        padding: 15px 35px;
+    }
 }
+
+/* plants-lover  */
+.plants-lover{
+    display: flex;
+    margin-top:210px ;
+    gap: 60px;
+    position: relative;
 }
+.Plants-Lover-badge{
+    width: 22%;
+    position: absolute;
+    top: -17%;
+    left: 32%;
+}
+.Plants-Lover-content li{
+    margin-bottom:20px ;
+}
+
+/* smaller device plants-lover section  */
+@media screen and (max-width: 576px){
+    .plants-lover{
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .Plants-Lover-badge{
+        display: none;
+    }
+}
+
