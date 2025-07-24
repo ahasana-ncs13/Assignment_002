@@ -152,6 +152,9 @@
     top: -17%;
     left: 32%;
 }
+.Plants-Lover-content{
+    margin: 40px 0;
+}
 .Plants-Lover-content li{
     margin-bottom:20px ;
 }
@@ -167,3 +170,35 @@
     }
 }
 
+
+/* join styles  */
+.join{
+    background-image: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    padding:190px 0;
+}
+.join-title{
+    text-align: center;
+    color: white;
+    margin: 15px;
+}
+.join-field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.join input{
+    color:rgba(0, 0, 0, 0.5) ;
+    border: none;
+    padding: 20px 460px 20px 20px;
+}
+
+/* smaller device join section  */
+@media screen and (max-width: 576px){
+    .join{
+    background-position: top;
+}
+    .join input{
+    padding: 15px 20px 15px 15px;
+}
+}
