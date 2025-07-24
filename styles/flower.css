@@ -150,7 +150,7 @@
     width: 22%;
     position: absolute;
     top: -17%;
-    left: 32%;
+    left: 32%;  
 }
 .Plants-Lover-content{
     margin: 40px 0;
@@ -227,6 +227,7 @@
     text-decoration: underline;
 }
 .Zabo-Plant-title{
+    font-family: "Noto Serif", serif;
     font-size: 2.5rem;  
 }
 .Zabo-Plant-subtitle{
