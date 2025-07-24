@@ -194,22 +194,21 @@
 }
 
 .bloom-plant{
-    background-image: url("../assets/deal-bloom.png");
+    background-image:linear-gradient(rgba(0,0,0,0.5)), url("../assets/deal-bloom.png");
     background-size: cover;
     border-radius: 14px;
     text-align: center;
-    padding: 65px 50px;
-    
+    padding: 65px 50px; 
 }
 .Ana-Plant{
-    background-image: url("../assets/deal-ana.png");
+    background-image:linear-gradient(rgba(0,0,0,0.5)), url("../assets/deal-ana.png");
     background-size: cover;
     border-radius: 14px;
     text-align: center;
     padding: 65px 50px;
 }
 .Zabo-Plant{
-    background-image: url("../assets/deal-zabo.png");
+    background-image:linear-gradient(rgba(0,0,0,0.5)), url("../assets/deal-zabo.png");
     background-size: cover;
     border-radius: 22px;
     text-align: center;
